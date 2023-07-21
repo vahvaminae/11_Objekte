@@ -21,7 +21,7 @@
 // output(arr[0][0]+ " " + arr[1][2]);
 // output(arr[1][0]);
 
-// // nested loop
+// // // nested loop
 // for (let i = 0; i < arr.length; i++) {
 //     for (let j = 0; j < arr[i].length; j++) {
 //         output("Index i: " + i + " Index j: " + j);
@@ -32,11 +32,18 @@
 
 /***** Objekte 1 Daten/Funktionen *******/
 
+let person = {
 
+firstName:"Manfred",
+familyName:"Lungie",
+salary:[120000, 160000],
 
+};
 
-
-
+output(person);
+output(person["firstName"]);
+output(person.familyName);
+output(person.salary[1]);
 
 /** Ausgabe */
 function output(outputData) {
